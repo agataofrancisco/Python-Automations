@@ -35,7 +35,7 @@ def main():
     """Controla fluxo principal"""
     while True:
         comando = ouvir_comando()
-        if 'teste' in comando:
+        if 'Chat' in comando:
             print("Comando reconhecido. Iniciando...")
             automatizar_chatgpt()
             break
